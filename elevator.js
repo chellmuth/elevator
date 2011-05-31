@@ -425,7 +425,7 @@ function main(counts) {
         if (floors[0] === floors[1]) { return; }
 
         actors.push(new Actor(floors[0], floors[1], env));
-    }, 2000);
+    }, 2500);
 
 
     var renderer = new Renderer(frame, sizes, layout, elevators, floors);
