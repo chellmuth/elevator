@@ -452,7 +452,6 @@ function game_loop(controller, renderer, actors) {
         var index = actors.indexOf(actor);
         actors.splice(index, 1);
     });
-    console.log(actors.length);
 
     renderer.render();
 
